@@ -258,7 +258,9 @@ align-items: center;
      }        
     
     .container-icon{
-        display: inline-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-bottom: 30px;
        width: 270px;
        height: 120px;
@@ -266,7 +268,8 @@ align-items: center;
        border-radius: 15px;
     }
     .features-link-icon{
-    padding: 25px 100px;
+   width: 70px;
+   height: 70px;
 
     }
 
@@ -292,10 +295,10 @@ align-items: center;
     }     
     .photo-title-ikon{
       height: 20px;
-      width: 20px;
+      width: 20px;} 
        
         
-      }  
+       
 
     
         
@@ -585,6 +588,7 @@ align-items: center;
                  fill: var(--color-text-white);
              }
                            .about-icon-link {
+                               fill: var(--color-text-white);
                                width: 20px;
                                height: 20px;
                            }
