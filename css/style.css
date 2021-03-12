@@ -581,12 +581,19 @@ align-items: center;
     background: rgba(255, 255, 255, 0.1);
             }
             
-           
+           /*Ховер и фокус для иконок в подвале страницы*/
 
-    .about-icon-footer:hover{
+    .about-icon-footer:hover,
+    .about-icon-footer:focus,
+    .about-icon-link:hover,
+    .about-icon-link:focus {
     background: var(--accent-color);
             }
-    .about-icon-footer:hover{
+    .about-icon-footer:hover
+    .about-icon-footer:focus,
+    .about-icon-link:hover,
+    .about-icon-link:focus{
+     
     fill: var(--color-text-white);
              }
     .about-icon-link {
